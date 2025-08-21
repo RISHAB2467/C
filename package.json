@@ -1,0 +1,26 @@
+{
+  "name": "graphic-design-portfolio",
+  "version": "1.0.0",
+  "description": "A stunning graphic design portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve -s . -l 3000",
+    "build": "echo 'No build process needed for static site'",
+    "start": "serve -s . -l 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "graphic-design",
+    "creative",
+    "website",
+    "responsive"
+  ],
+  "author": "Graphic Designer",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
